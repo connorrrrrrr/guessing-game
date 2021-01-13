@@ -69,4 +69,6 @@ else if (winter === 'no' || winter === 'n') {
 //  console.log('The user chose the wrong answer.');
   alert('Incorrect.');
 }
+
+alert('Thanks! Have a good day, ' + name)
 //Above asks the user if I enjoy the winter.
