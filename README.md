@@ -1,2 +1,2 @@
-# guessing-game
-Guessing game project
+# Guessing-Game
+Guessing game project.

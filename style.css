@@ -1,0 +1,17 @@
+/* starts with an element to select, key value pairs for speicific element properties*/
+body {
+  color: green;
+  background-color:rgb(232, 198, 235)
+}
+
+li {
+  border-width: thin;
+  border-color:teal;
+  border-style:double
+}
+
+h1 {
+  border-style: inset;
+  border-color: teal;
+}
+
