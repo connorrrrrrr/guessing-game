@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // Get data from the user
 var name = prompt('What is your name?');
 var response1 = 'Welcome to my site, ';
@@ -69,6 +69,19 @@ else if (winter === 'no' || winter === 'n') {
 //  console.log('The user chose the wrong answer.');
   alert('Incorrect.');
 }
+
+var correctAnswer = 9;
+
+var guess = prompt('Pick a number between 1-15');
+while (guess < 1 || guess > 15) {
+  guess = prompt('Sorry, try again!');
+}
+var numberOfGuesses = 4
+
+
+
+
+
 
 alert('Thanks! Have a good day, ' + name)
 //Above asks the user if I enjoy the winter.
