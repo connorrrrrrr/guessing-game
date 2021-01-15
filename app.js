@@ -32,7 +32,7 @@ question1();
 
 // //Above asks the user if I am a female or not.
 
-function question2();{
+function question2(){
 var videoGame = prompt('Do I like video games?');
 videoGame = videoGame.toLowerCase()
 //console.log('The user chose ' + videoGame);
@@ -48,17 +48,22 @@ else if (videoGame === 'no' || videoGame === 'n') {
 question2();
 
 // //Above asks the user if I like video games or not.
-// var extrovert = prompt('Am I an extrovert?');
-// extrovert = extrovert.toLowerCase()
-// //console.log('The user chose ' + extrovert);
-// if (extrovert === 'no' || extrovert === 'n') {
-// //  console.log('The user chose the correct answer.');
-//   alert('Thats correct!');
-// }
-// else if (extrovert === 'yes' || extrovert === 'y') {
-// //  console.log('The user chose the wrong answer.');
-//   alert('Thats incorrect.');
-// }
+
+function questions3(){
+var extrovert = prompt('Am I an extrovert?');
+extrovert = extrovert.toLowerCase()
+//console.log('The user chose ' + extrovert);
+if (extrovert === 'no' || extrovert === 'n') {
+//  console.log('The user chose the correct answer.');
+  alert('Thats correct!');
+}
+else if (extrovert === 'yes' || extrovert === 'y') {
+//  console.log('The user chose the wrong answer.');
+  alert('Thats incorrect.');
+}
+}
+questions3();
+
 // //Above asks the user if I am an extrovert or not.
 // var dogs = prompt('Do I like dogs?');
 // dogs = dogs.toLowerCase()
