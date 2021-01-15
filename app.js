@@ -1,14 +1,19 @@
 'use strict';
 // Get data from the user
+function greeting(){
 var name = prompt('What is your name?');
 var response1 = 'Welcome to my site, ';
+alert(response1 + name);
+}
+greeting();
 
 // display data to the user
-alert(response1 + name);
+// alert(response1 + name);
 
 // log data to your developer console
 //console.log('The users name is ' + name);
 
+function question1(){
 var gender = prompt('Am I a female?');
 // This is the same thing as writing .toLowerCase over and over. 
 gender = gender.toLowerCase()
@@ -21,7 +26,13 @@ else if (gender === 'yes' || gender === 'y') {
 //  console.log('The user chose the wrong answer');
   alert('Wrong.');
 }
-//Above asks the user if I am a female or not.
+}
+
+question1();
+
+// //Above asks the user if I am a female or not.
+
+function question2(){
 var videoGame = prompt('Do I like video games?');
 videoGame = videoGame.toLowerCase()
 //console.log('The user chose ' + videoGame);
@@ -33,7 +44,12 @@ else if (videoGame === 'no' || videoGame === 'n') {
 //  console.log('The user chose the wrong answer.');
   alert('Wrong.');
 }
-//Above asks the user if I like video games or not.
+}
+question2();
+
+// //Above asks the user if I like video games or not.
+
+function questions3(){
 var extrovert = prompt('Am I an extrovert?');
 extrovert = extrovert.toLowerCase()
 //console.log('The user chose ' + extrovert);
@@ -45,7 +61,12 @@ else if (extrovert === 'yes' || extrovert === 'y') {
 //  console.log('The user chose the wrong answer.');
   alert('Thats incorrect.');
 }
-//Above asks the user if I am an extrovert or not.
+}
+questions3();
+
+// //Above asks the user if I am an extrovert or not.
+
+function question4(){
 var dogs = prompt('Do I like dogs?');
 dogs = dogs.toLowerCase()
 //console.log('The user chose ' + dogs);
@@ -57,7 +78,12 @@ else if (dogs === 'no' || dogs === 'n') {
 //  console.log('The user chose the wrong answer.');
   alert('That is incorrect.');
 }
-//Above asks the user if I like dogs or not.
+}
+question4();
+
+// //Above asks the user if I like dogs or not.
+
+function question5(){
 var winter = prompt('Do I enjoy the winter?');
 winter = winter.toLowerCase()
 //console.log('The user chose ' + winter);
@@ -69,19 +95,21 @@ else if (winter === 'no' || winter === 'n') {
 //  console.log('The user chose the wrong answer.');
   alert('Incorrect.');
 }
-
-var correctAnswer = 9;
-
-var guess = prompt('Pick a number between 1-15');
-while (guess < 1 || guess > 15) {
-  guess = prompt('Sorry, try again!');
 }
-var numberOfGuesses = 4
+question5();
+
+// var correctAnswer = 9;
+
+// var guess = prompt('Pick a number between 1-15');
+// while (guess < 1 || guess > 15) {
+//   guess = prompt('Sorry, try again!');
+// }
+// var numberOfGuesses = 4
 
 
 
 
 
 
-alert('Thanks! Have a good day, ' + name)
-//Above asks the user if I enjoy the winter.
+// alert('Thanks! Have a good day, ' + name)
+// //Above asks the user if I enjoy the winter.
