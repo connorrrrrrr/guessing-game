@@ -1,17 +1,31 @@
 /* starts with an element to select, key value pairs for speicific element properties*/
 body {
-  color: green;
-  background-color:rgb(232, 198, 235)
+  color:peru;
+  background-color:rgb(7, 85, 13)
 }
 
 li {
+  color:grey;
   border-width: thin;
   border-color:teal;
-  border-style:double
+  border-style:none;
+  font-family: sans-serif;
 }
 
 h1 {
   border-style: inset;
   border-color: teal;
+  text-align:center;
+  color:peru
 }
 
+h3 {
+  color:peru;
+  border-style:inset
+
+}
+
+p {
+  font-family: sans-serif;
+  color: grey;
+}
