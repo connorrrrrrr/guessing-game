@@ -31,17 +31,22 @@ else if (gender === 'yes' || gender === 'y') {
 question1();
 
 // //Above asks the user if I am a female or not.
-// var videoGame = prompt('Do I like video games?');
-// videoGame = videoGame.toLowerCase()
-// //console.log('The user chose ' + videoGame);
-// if (videoGame === 'yes' || videoGame === 'y') {
-// //  console.log('The user chose the correct answer.');
-//   alert('Correct!');
-// }
-// else if (videoGame === 'no' || videoGame === 'n') {
-// //  console.log('The user chose the wrong answer.');
-//   alert('Wrong.');
-// }
+
+function question2();{
+var videoGame = prompt('Do I like video games?');
+videoGame = videoGame.toLowerCase()
+//console.log('The user chose ' + videoGame);
+if (videoGame === 'yes' || videoGame === 'y') {
+//  console.log('The user chose the correct answer.');
+  alert('Correct!');
+}
+else if (videoGame === 'no' || videoGame === 'n') {
+//  console.log('The user chose the wrong answer.');
+  alert('Wrong.');
+}
+}
+question2();
+
 // //Above asks the user if I like video games or not.
 // var extrovert = prompt('Am I an extrovert?');
 // extrovert = extrovert.toLowerCase()
