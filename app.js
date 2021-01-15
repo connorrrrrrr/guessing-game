@@ -65,29 +65,38 @@ else if (extrovert === 'yes' || extrovert === 'y') {
 questions3();
 
 // //Above asks the user if I am an extrovert or not.
-// var dogs = prompt('Do I like dogs?');
-// dogs = dogs.toLowerCase()
-// //console.log('The user chose ' + dogs);
-// if (dogs === 'yes' || dogs === 'y') {
-// //  console.log('The user chose the correct answer.');
-//   alert('You are correct!');
-// }
-// else if (dogs === 'no' || dogs === 'n') {
-// //  console.log('The user chose the wrong answer.');
-//   alert('That is incorrect.');
-// }
+
+function question4(){
+var dogs = prompt('Do I like dogs?');
+dogs = dogs.toLowerCase()
+//console.log('The user chose ' + dogs);
+if (dogs === 'yes' || dogs === 'y') {
+//  console.log('The user chose the correct answer.');
+  alert('You are correct!');
+}
+else if (dogs === 'no' || dogs === 'n') {
+//  console.log('The user chose the wrong answer.');
+  alert('That is incorrect.');
+}
+}
+question4();
+
 // //Above asks the user if I like dogs or not.
-// var winter = prompt('Do I enjoy the winter?');
-// winter = winter.toLowerCase()
-// //console.log('The user chose ' + winter);
-// if (winter === 'yes' || winter === 'y') {
-// //  console.log('The user chose the correct answer.');
-//   alert('Thats right!');
-// }
-// else if (winter === 'no' || winter === 'n') {
-// //  console.log('The user chose the wrong answer.');
-//   alert('Incorrect.');
-// }
+
+function question5(){
+var winter = prompt('Do I enjoy the winter?');
+winter = winter.toLowerCase()
+//console.log('The user chose ' + winter);
+if (winter === 'yes' || winter === 'y') {
+//  console.log('The user chose the correct answer.');
+  alert('Thats right!');
+}
+else if (winter === 'no' || winter === 'n') {
+//  console.log('The user chose the wrong answer.');
+  alert('Incorrect.');
+}
+}
+question5();
 
 // var correctAnswer = 9;
 
